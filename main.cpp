@@ -16,6 +16,7 @@
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
+#include <boost/filesystem/qstream.hpp>
 #include <iostream>
 #include <openssl/rsa.h>
 #include <openssl/rand.h>
