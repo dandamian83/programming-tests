@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 // Added some fake comments
 
-#include "alert.h"
+#include "alertx.h"
 #include "checkpoints.h"
 #include "db.h"
 #include "txdb.h"
