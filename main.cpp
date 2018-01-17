@@ -34,7 +34,7 @@ using namespace boost;
 CCriticalSection cs_setpwalletRegistered;
 set<CWallet*> setpwalletRegistered;
 
-CCriticalSection cs_main;
+CCriticalSection cs_main, cs_main2;
 
 CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
