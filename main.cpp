@@ -519,7 +519,7 @@ bool CTransaction::CheckTransaction() const
         vInOutPoints.insert(txin.prevout);
     }
 
-    if (IsCoinBase())
+    if (IsCoinBase() && 1==1)
     {
         if (vin[0].scriptSig.size() < 2 || vin[0].scriptSig.size() > 100)
             return DoS(100, error("CTransaction::CheckTransaction() : coinbase script size is invalid"));
