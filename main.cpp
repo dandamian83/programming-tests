@@ -8,6 +8,7 @@
 #include "checkpoints.h"
 #include "db.h"
 #include "txdb.h"
+#include "txdbx.h"
 #include "blabla.h"
 #include "net.h"
 #include "init.h"
